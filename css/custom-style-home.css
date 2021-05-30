@@ -1,0 +1,77 @@
+/* html */
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 2px 0 #4e7cad5b;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+/* nav text */
+.navbar-brand {
+  font-weight: 600;
+}
+
+.bandarmasih-text {
+  padding-left: 1px;
+  font-weight: 400;
+}
+
+.nav-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+#navbar .nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #4e7cad;
+  margin: auto;
+  padding-bottom: 15px;
+  margin-bottom: -23px;
+  animation: FadeIn 0.5s;
+}
+
+#navbar .text-danger.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #ad2d39;
+  margin: auto;
+  padding-bottom: 15px;
+  margin-bottom: -23px;
+  animation: FadeIn 0.5s;
+}
+/* User Box */
+
+#user-box {
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 2px 0 #4e7cad5b;
+}
+
+.profile-head h4 {
+  color: #333;
+}
+.profile-head h6 {
+  color: #0062cc;
+}
+
+/* Animation */
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
